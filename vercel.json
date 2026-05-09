@@ -1,3 +1,5 @@
 {
-  "rootDirectory": "orinoco-dmc"
+  "installCommand": "npm install --prefix orinoco-dmc",
+  "buildCommand": "npm run build --prefix orinoco-dmc",
+  "outputDirectory": "orinoco-dmc/dist"
 }

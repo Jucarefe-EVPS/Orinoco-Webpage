@@ -1,0 +1,21 @@
+.inspired{padding:160px 56px;background:var(--sand)}
+.inspiredHead{margin-bottom:80px;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:end}
+.inspiredHead h2{font-family:var(--serif);font-weight:300;font-size:clamp(48px,7vw,120px);line-height:.95;margin-top:24px}
+.it{font-style:italic;color:var(--rust)}
+.inspiredHead p{color:var(--ink-soft);max-width:42ch;font-size:17px}
+.journey{display:grid;grid-template-columns:64px minmax(220px,1fr) minmax(180px,280px) minmax(150px,200px) 44px;gap:clamp(20px,3vw,40px);align-items:center;padding:36px 0;border-top:1px solid rgba(59,62,29,.28);position:relative;cursor:pointer;transition:padding-left .4s var(--ease-soft),background .4s var(--ease-soft)}
+.journey:hover{padding-left:24px}
+.journey:hover{background:rgba(245,241,232,.22)}
+.journey:last-child{border-bottom:1px solid rgba(59,62,29,.28)}
+.journeyNum{font-family:var(--mono);font-size:11px;letter-spacing:.16em;color:var(--rust)}
+.journeyName{font-family:var(--serif);font-size:clamp(28px,3.4vw,48px);line-height:1;font-weight:400;transition:transform .5s var(--ease-cine)}
+.journey:hover .journeyName{transform:translateX(8px)}
+.journeyMeta{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);line-height:1.7}
+.journeyNote{color:var(--ink-soft);font-size:14px;line-height:1.5}
+.journeyArr{justify-self:end;font-size:24px;transition:transform .4s var(--ease-soft)}
+.journey:hover .journeyArr{transform:translateX(10px) rotate(-45deg)}
+.journeyImg{position:fixed;width:280px;height:380px;pointer-events:none;opacity:0;transform:translate(-50%,-50%) scale(.92);transition:opacity .35s var(--ease-soft),transform .55s var(--ease-cine);z-index:40}
+.show{opacity:1;transform:translate(-50%,-50%) scale(1)}
+@media(max-width:1180px){.journey{grid-template-columns:56px 1fr 220px 44px}.journeyNote{display:none}}
+@media(max-width:1024px){.journey{grid-template-columns:60px 1fr 60px;gap:20px}.journeyMeta,.journeyNote{display:none}.journeyImg{display:none}.inspiredHead{grid-template-columns:1fr}.inspired{padding:100px 24px}}
+@media(max-width:520px){.inspired{padding:88px 18px}.inspiredHead{margin-bottom:48px}.inspiredHead h2{font-size:clamp(44px,14vw,72px)}.journey{grid-template-columns:1fr 42px;gap:14px;padding:30px 0}.journeyNum{grid-column:1/-1}.journeyName{font-size:34px}.journeyArr{align-self:end}}

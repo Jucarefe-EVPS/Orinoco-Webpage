@@ -1,0 +1,15 @@
+.contact{background:var(--rust);color:var(--cream);padding:160px 56px}
+.contactHead{display:grid;grid-template-columns:1fr 1fr;gap:60px;margin-bottom:80px;align-items:end}
+.contactHead h2{font-family:var(--serif);font-weight:300;font-size:clamp(48px,7vw,120px);line-height:.95;margin-top:24px}
+.it{font-style:italic;color:var(--sand)}
+.contactHead p{color:rgba(245,241,232,.78);max-width:42ch}
+.form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;max-width:900px}
+.full{grid-column:1/-1}
+.form input,.form textarea{background:transparent;border:0;border-bottom:1px solid rgba(245,241,232,.42);padding:18px 0 12px;font:inherit;color:var(--cream);outline:none;transition:border-color .4s}
+.form input:focus,.form textarea:focus{border-color:var(--sand)}
+.form input::placeholder,.form textarea::placeholder{color:rgba(245,241,232,.64);opacity:1}
+.form textarea{resize:vertical;min-height:120px;font-family:var(--serif);font-size:24px;line-height:1.4}
+.actions{grid-column:1/-1;display:flex;justify-content:flex-end;margin-top:24px}
+.error{grid-column:1/-1;color:var(--sand);font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase}
+@media(max-width:880px){.form{grid-template-columns:1fr}.contactHead{grid-template-columns:1fr}.contact{padding:100px 24px}}
+@media(max-width:520px){.contact{padding:88px 18px}.contactHead{margin-bottom:50px}.contactHead h2{font-size:clamp(44px,14vw,72px)}.form textarea{font-size:20px}.actions{justify-content:flex-start}.actions :global(.btn){width:100%;justify-content:center}}

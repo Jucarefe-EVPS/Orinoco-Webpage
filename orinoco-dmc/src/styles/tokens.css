@@ -1,0 +1,21 @@
+:root{
+  --cream:#f5f1e8;
+  --cream-warm:#ede6d3;
+  --cream-deep:#e2d8be;
+  --ink:#14271a;
+  --ink-soft:#2a3d31;
+  --leather:#8b6f47;
+  --leather-deep:#5c4a30;
+  --olive:#3b3e1d;
+  --sand:#e7d2a3;
+  --gold:#d89136;
+  --rust:#a94715;
+  --rust-deep:#7d3514;
+  --rule:#d4cab2;
+  --shadow:rgba(20,39,26,.08);
+  --serif:"DM Serif Display", Georgia, serif;
+  --sans:"Geist", system-ui, -apple-system, sans-serif;
+  --mono:"Geist Mono", ui-monospace, monospace;
+  --ease-cine:cubic-bezier(.22,1,.36,1);
+  --ease-soft:cubic-bezier(.4,0,.2,1);
+}

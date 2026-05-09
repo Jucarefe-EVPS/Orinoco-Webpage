@@ -1,0 +1,22 @@
+.dest{background:var(--olive);color:var(--cream);padding:140px 0}
+.container{padding:0 56px;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:end;margin-bottom:80px}
+.container :global(.eyebrow){color:var(--gold)}
+.container h2{font-family:var(--serif);font-weight:300;font-size:clamp(48px,7vw,120px);line-height:.95;margin-top:24px}
+.it{font-style:italic;color:var(--gold)}
+.container p{color:rgba(245,241,232,.75);max-width:46ch;font-size:17px;line-height:1.65}
+.destTrack{display:flex;gap:40px;padding:0 56px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
+.destTrack::-webkit-scrollbar{display:none}
+.destCard{flex:0 0 clamp(280px,30vw,380px);scroll-snap-align:start;display:flex;flex-direction:column;gap:20px}
+.destCard :global(.img-ph){aspect-ratio:3/4;border-radius:0}
+.destMeta{display:flex;justify-content:space-between;gap:18px;font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:rgba(245,241,232,.5)}
+.destCard h3{font-family:var(--serif);font-size:32px;font-weight:400;line-height:1.05}
+.destCard p{color:rgba(245,241,232,.75);font-size:14px;line-height:1.55;max-width:38ch}
+.destNav{padding:0 56px;margin-top:50px;display:flex;justify-content:space-between;align-items:center}
+.arrows{display:flex;gap:14px}
+.arrows button{border:1px solid rgba(245,241,232,.4);width:48px;height:48px;border-radius:50%;display:grid;place-items:center;color:var(--cream);font-size:20px;transition:background .3s,color .3s,border-color .3s}
+.arrows button:hover{background:var(--cream);color:var(--ink);border-color:var(--cream)}
+.progress{flex:1;height:1px;background:rgba(245,241,232,.18);margin:0 32px;position:relative}
+.progress div{position:absolute;left:0;top:0;height:100%;background:var(--gold);transition:width .4s var(--ease-soft)}
+.count{font-family:var(--mono);font-size:11px;letter-spacing:.16em;color:rgba(245,241,232,.5)}
+@media(max-width:880px){.container{grid-template-columns:1fr;padding:0 24px}.destTrack{padding:0 24px;gap:24px}.destCard{flex-basis:min(78vw,360px)}.destNav{padding:0 24px}.progress{margin:0 18px}}
+@media(max-width:520px){.dest{padding:96px 0}.container{margin-bottom:48px}.container h2{font-size:clamp(44px,14vw,70px)}.destCard{flex-basis:82vw}.destNav{align-items:flex-start;gap:18px;flex-wrap:wrap}.progress{order:3;flex-basis:100%;margin:0}.arrows button{width:42px;height:42px}}

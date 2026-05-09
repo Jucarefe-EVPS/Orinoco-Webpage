@@ -1,0 +1,37 @@
+﻿[
+    {
+        "key":  "angel-falls",
+        "title":  "Salto Angel - Cañon del Diablo",
+        "file":  "https://commons.wikimedia.org/wiki/Special:Redirect/file/Salto%20Angel%20-%20Ca%C3%B1on%20del%20Diablo.JPG",
+        "source":  "https://commons.wikimedia.org/wiki/Category:Ca%C3%B1on_del_Diablo_(Angel_Falls)",
+        "provider":  "Wikimedia Commons"
+    },
+    {
+        "key":  "los-roques",
+        "title":  "Clear water of Cayo de Agua - Agua cristalina de Cayo de Agua",
+        "file":  "https://commons.wikimedia.org/wiki/Special:Redirect/file/Clear%20water%20of%20Cayo%20de%20Agua%20-%20Agua%20cristalina%20de%20Cayo%20de%20Agua.JPG",
+        "source":  "https://commons.wikimedia.org/wiki/File:Clear_water_of_Cayo_de_Agua_-_Agua_cristalina_de_Cayo_de_Agua.JPG",
+        "provider":  "Wikimedia Commons"
+    },
+    {
+        "key":  "gran-sabana",
+        "title":  "Gran Sabana, Venezuela 01",
+        "file":  "https://commons.wikimedia.org/wiki/Special:Redirect/file/Gran%20Sabana%2C%20Venezuela%2001.jpg",
+        "source":  "https://commons.wikimedia.org/wiki/File:Gran_Sabana,_Venezuela_01.jpg",
+        "provider":  "Wikimedia Commons"
+    },
+    {
+        "key":  "santa-ana-de-coro",
+        "title":  "Casco central Santa Ana de Coro, estado Falcon, Venezuela",
+        "file":  "https://commons.wikimedia.org/wiki/Special:Redirect/file/Casco%20central%20Santa%20Ana%20de%20Coro%2C%20estado%20Falcon%2C%20Venezuela.jpg",
+        "source":  "https://commons.wikimedia.org/wiki/Category:Colonial_architecture_in_Coro",
+        "provider":  "Wikimedia Commons"
+    },
+    {
+        "key":  "canaima-lagoon",
+        "title":  "Canaima panoramic",
+        "file":  "https://commons.wikimedia.org/wiki/Special:Redirect/file/Canaima%20panoramic.jpg",
+        "source":  "https://commons.wikimedia.org/wiki/File:Canaima_panoramic.jpg",
+        "provider":  "Wikimedia Commons"
+    }
+]

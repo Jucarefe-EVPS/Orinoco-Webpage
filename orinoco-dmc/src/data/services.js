@@ -4,8 +4,8 @@ export const services = [
   {
     id: 'fits',
     num: '01',
-    image: commons('Carrao river and tepuys.jpg'),
-    focus: 'center 45%',
+    image: commons('Kukenan Tepuy at Sunset.jpg'),
+    focus: 'center 48%',
     name: { es: 'FITs', en: 'FITs' },
     desc: {
       es: 'Viajeros independientes que buscan itinerarios a la medida, guías privados y acceso a experiencias que no están en ningún catálogo. Cada ruta se diseña a mano, persona por persona.',
@@ -38,8 +38,8 @@ export const services = [
   {
     id: 'mice',
     num: '03',
-    image: commons('ISS052-E-44675 - View of Venezuela - Orinoco Delta - Barrancas del Orinoco - Isla Chivera - Isla Varadero - Isla Tortola - Isla Portuguesa - Isla Sacoroco (cropped).jpg'),
-    focus: 'center 52%',
+    image: commons('Teatro Municipal de Caracas.jpg'),
+    focus: 'center 54%',
     name: { es: 'M.I.C.E.', en: 'M.I.C.E.' },
     desc: {
       es: 'Reuniones, incentivos, conferencias y eventos. Venues singulares, producción local y gestión integral de la experiencia.',

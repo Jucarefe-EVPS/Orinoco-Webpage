@@ -12,7 +12,7 @@ export function Footer() {
           <h4>{t.footer.contact}</h4>
           <ul>
             <li><a href="mailto:hello@orinocodmc.com">hello@orinocodmc.com</a></li>
-            <li>+58 212 000 0000</li>
+            <li><a href="tel:+582122436595">+58 212 2436595</a></li>
             <li>{t.footer.address}</li>
           </ul>
         </div>
@@ -36,9 +36,8 @@ export function Footer() {
       <div className="footer-bottom">
         <span className="footer-brandline">
           <Logo className="brand-logo brand-logo--footer" variant="cream" />
-          <span>{t.footer.rights.replace(/Orinoco DMC/g, '').replace(/·/g, '').trim()}</span>
+          <span>{t.footer.rights.replace(/Orinoco DMC/g, '').replace(/Â·/g, '').trim()}</span>
         </span>
-        <span>Sister DMC of Macondo · Caracas — Bogotá</span>
       </div>
     </footer>
   )

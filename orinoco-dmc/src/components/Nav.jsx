@@ -2,11 +2,9 @@ import { useState, useEffect } from 'react'
 import { LangToggle } from './LangToggle.jsx'
 import { Logo } from './Logo.jsx'
 import { useLang } from '../hooks/useLang.js'
-import { useScrollSolidNav } from '../hooks/useScrollSolidNav.js'
 
 export function Nav() {
   const { t } = useLang()
-  const solid = useScrollSolidNav()
   const [menuOpen, setMenuOpen] = useState(false)
 
   useEffect(() => {
@@ -24,9 +22,9 @@ export function Nav() {
 
   return (
     <>
-      <nav className={`nav ${solid ? 'nav--solid' : ''}`}>
+      <nav className="nav nav--solid">
         <a href="#top" className="brand brand-logo-link" onClick={close}>
-          <Logo className="brand-logo" variant={solid ? 'navbar-cream' : 'navbar-gold'} />
+          <Logo className="brand-logo" variant="navbar-cream" />
         </a>
         <div className="nav-links">
           <a href="#destinations">{t.nav.destinations}</a>

@@ -27,7 +27,6 @@ export function Hero() {
         ))}
       </div>
       <div className={styles.heroContent}>
-        <Reveal className={styles.heroEyebrow}>{t.hero.eyebrow}</Reveal>
         <Reveal as="h1" delay={0.1}>
           <span>{t.hero.slogan_l1}</span><br />
           <span className={styles.it}>{t.hero.slogan_l2}</span><br />

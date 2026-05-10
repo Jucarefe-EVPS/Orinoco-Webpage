@@ -12,7 +12,7 @@ section{padding:140px 40px;position:relative}
 .eyebrow-line::before{content:"";width:32px;height:1px;background:var(--leather)}
 .nav{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;justify-content:space-between;gap:28px;padding:18px 40px;mix-blend-mode:normal;color:#f5f1e8;pointer-events:none;transition:background .35s var(--ease-soft),color .35s var(--ease-soft),border-color .35s var(--ease-soft)}
 .nav>*{pointer-events:auto}
-.nav--solid{mix-blend-mode:normal;color:var(--cream);background:rgba(20,39,26,.94);backdrop-filter:blur(12px);border-bottom:1px solid rgba(245,241,232,.18)}
+.nav--solid{mix-blend-mode:normal;color:var(--cream);background:var(--ink);border-bottom:1px solid rgba(245,241,232,.18)}
 .brand{font-family:var(--serif);font-size:20px;letter-spacing:.32em;font-weight:500}
 .brand sup{font-family:var(--mono);font-size:9px;letter-spacing:.1em;margin-left:6px;opacity:.7;vertical-align:super}
 .logo-mark{display:inline-flex;align-items:center;line-height:1;color:inherit}

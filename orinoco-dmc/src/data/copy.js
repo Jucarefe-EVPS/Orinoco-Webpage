@@ -36,7 +36,7 @@ export const copy = {
       { id: 'andes', name: 'Andes & Coast', days: '11 días', path: 'Mérida · Choroní · Mochima', note: 'De los páramos a 4.000 m al Caribe afrovenezolano en una semana y media.' },
       { id: 'indigenous', name: 'Indigenous Heritage', days: '8 días', path: "Pemón (Gran Sabana) · Warao (Delta) · Ye'kwana (Caura)", note: 'Tres pueblos originarios, en sus territorios y sus términos.' },
     ] },
-    contact: { eyebrow: 'Empieza el viaje', title_l1: 'Cuéntanos qué', title_l2: 'Venezuela buscas.', sub: 'Respondemos en 24 horas hábiles. Atendemos a agencias, operadores y viajeros directos.', placeholder_name: 'Nombre', placeholder_company: 'Compañía / agencia (opcional)', placeholder_message: 'Cuéntanos en qué piensas', cta: 'Enviar mensaje', email: 'Email' },
+    contact: { eyebrow: 'Empieza el viaje', title_l1: 'Cuéntanos qué', title_l2: 'Venezuela buscas.', sub: 'Respondemos en 24 horas hábiles. Atendemos a agencias, operadores y viajeros directos.', placeholder_name: 'Nombre', placeholder_company: 'Asunto', placeholder_message: 'Cuéntanos en qué piensas', cta: 'Enviar mensaje', email: 'Email' },
     footer: { tag: 'Venezuela, en su forma más íntima.', contact: 'Contacto', explore: 'Explora', legal: 'Legal', address: 'Av. Principal de La Urbina, Torre Olympia, PH-A. La Urbina, Caracas 1070', rights: '© 2026 Orinoco DMC · Todos los derechos reservados' },
   },
   en: {
@@ -76,7 +76,7 @@ export const copy = {
       { id: 'andes', name: 'Andes & Coast', days: '11 days', path: 'Mérida · Choroní · Mochima', note: 'From the 4,000 m páramos to the Afro-Venezuelan Caribbean in ten days.' },
       { id: 'indigenous', name: 'Indigenous Heritage', days: '8 days', path: "Pemón (Gran Sabana) · Warao (Delta) · Ye'kwana (Caura)", note: 'Three indigenous peoples, on their territories and on their terms.' },
     ] },
-    contact: { eyebrow: 'Begin the journey', title_l1: 'Tell us what', title_l2: "Venezuela you're after.", sub: 'We reply within 24 business hours. We work with agencies, operators and direct travelers.', placeholder_name: 'Name', placeholder_company: 'Company / agency (optional)', placeholder_message: "Tell us what you're thinking", cta: 'Send message', email: 'Email' },
+    contact: { eyebrow: 'Begin the journey', title_l1: 'Tell us what', title_l2: "Venezuela you're after.", sub: 'We reply within 24 business hours. We work with agencies, operators and direct travelers.', placeholder_name: 'Name', placeholder_company: 'Subject', placeholder_message: "Tell us what you're thinking", cta: 'Send message', email: 'Email' },
     footer: { tag: 'Venezuela, in its most intimate form.', contact: 'Contact', explore: 'Explore', legal: 'Legal', address: 'Av. Principal de La Urbina, Torre Olympia, PH-A. La Urbina, Caracas 1070', rights: '© 2026 Orinoco DMC · All rights reserved' },
   },
 }

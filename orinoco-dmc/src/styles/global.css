@@ -44,6 +44,10 @@ section{padding:140px 40px;position:relative}
 .footer-grid h4{font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;opacity:.6;margin-bottom:20px;font-weight:400}
 .footer-grid ul{list-style:none;display:flex;flex-direction:column;gap:10px;font-family:var(--serif);font-size:18px}
 .footer-grid li:hover{color:var(--leather)}
+.social-list{gap:12px}
+.social-item{display:inline-flex;align-items:center;gap:10px;color:var(--cream)}
+.social-icon{width:18px;height:18px;flex:0 0 18px;color:currentColor;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.social-icon--x{width:16px;height:16px;flex-basis:16px;fill:currentColor;stroke:none}
 .footer-bottom{margin-top:80px;padding-top:24px;border-top:1px solid rgba(245,241,232,.18);display:flex;justify-content:space-between;font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.75;gap:24px}
 .footer-brandline{display:inline-flex;align-items:center;gap:14px;flex-wrap:wrap}
 .intro-mask{position:fixed;inset:0;z-index:100;background:var(--ink);display:grid;place-items:center;color:var(--cream);transition:transform 1.4s var(--ease-cine)}

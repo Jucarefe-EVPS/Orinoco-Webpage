@@ -1,16 +1,26 @@
-# React + Vite
+# Orinoco DMC
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Contact form captcha
 
-Currently, two official plugins are available:
+The contact form uses Cloudflare Turnstile plus a hidden honeypot field to reduce bot submissions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+1. Create a Turnstile widget in Cloudflare.
+2. Add your production domain and any preview/local domains you want to test.
+3. Copy `.env.example` to `.env.local` for local development.
+4. Set these variables locally and in Vercel:
 
-## React Compiler
+```bash
+VITE_TURNSTILE_SITE_KEY=your_cloudflare_turnstile_site_key
+TURNSTILE_SECRET_KEY=your_cloudflare_turnstile_secret_key
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+`VITE_TURNSTILE_SITE_KEY` is public and renders the widget in the browser. `TURNSTILE_SECRET_KEY` is private and must only be configured as an environment variable on the server/Vercel side.
 
-## Expanding the ESLint configuration
+Without `TURNSTILE_SECRET_KEY`, the API logs a warning and skips captcha verification so local development can still run.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Development
+
+```bash
+npm install
+npm run dev
+```

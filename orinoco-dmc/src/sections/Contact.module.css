@@ -9,6 +9,8 @@
 .form input:focus,.form textarea:focus{border-color:var(--sand)}
 .form input::placeholder,.form textarea::placeholder{color:rgba(245,241,232,.64);opacity:1}
 .form textarea{resize:vertical;min-height:120px;font-family:var(--serif);font-size:24px;line-height:1.4}
+.honey{position:absolute!important;left:-10000px!important;width:1px!important;height:1px!important;opacity:0!important;pointer-events:none!important}
+.captcha{grid-column:1/-1;margin-top:10px;min-height:65px}
 .actions{grid-column:1/-1;display:flex;justify-content:flex-end;margin-top:24px}
 .error{grid-column:1/-1;color:var(--sand);font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase}
 @media(max-width:880px){.form{grid-template-columns:1fr}.contactHead{grid-template-columns:1fr}.contact{padding:100px 24px}}

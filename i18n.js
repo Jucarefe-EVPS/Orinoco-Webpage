@@ -4,13 +4,13 @@ window.ORINOCO = window.ORINOCO || {};
 // ---------- Copy bilingüe ----------
 ORINOCO.copy = {
   es: {
-    nav: { destinations:"Destinos", services:"Experiencia", journeys:"Inspírate", about:"Nosotros", contact:"Contacto" },
+    nav: { destinations:"Destinos", services:"Experiencia", journeys:"Inspírate", about:"Quiénes somos", contact:"Contacto" },
     hero: {
       eyebrow: "Destination Management Company · Venezuela",
       slogan_l1: "Venezuela:",
       slogan_l2: "lugares extraordinarios,",
       slogan_l3: "personas inolvidables.",
-      sub: "Creando conexiones genuinas entre los viajeros y Venezuela.",
+      sub: "Creando conexiones genuinas con Venezuela.",
       cta: "Conoce nuestros itinerarios"
     },
     about: {

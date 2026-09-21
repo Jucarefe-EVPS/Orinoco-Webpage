@@ -1,5 +1,5 @@
 .dest{background:var(--olive);color:var(--cream);padding:var(--sec) 0}
-.eyebrow{color:var(--cream);max-width:var(--max);margin-inline:auto;padding-inline:var(--pad)}
+.dest .eyebrow{color:var(--cream);max-width:var(--max);margin-inline:auto;padding-inline:var(--pad)}
 .container{padding:0 var(--pad);display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:var(--gap-col);align-items:start;margin:44px auto 0;max-width:var(--max)}
 .container h2{font-family:var(--serif);font-weight:300;font-size:clamp(40px,5.4vw,86px);line-height:1.04;max-width:15ch}
 .it{font-style:italic;color:var(--gold-lt)}

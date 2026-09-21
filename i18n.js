@@ -4,13 +4,13 @@ window.ORINOCO = window.ORINOCO || {};
 // ---------- Copy bilingüe ----------
 ORINOCO.copy = {
   es: {
-    nav: { destinations:"Destinos", services:"Servicios", journeys:"Itinerarios", about:"Nosotros", contact:"Contacto" },
+    nav: { destinations:"Destinos", services:"Experiencia", journeys:"Inspírate", about:"Nosotros", contact:"Contacto" },
     hero: {
       eyebrow: "Destination Management Company · Venezuela",
-      slogan_l1: "Venezuela,",
-      slogan_l2: "en su forma",
-      slogan_l3: "más íntima.",
-      sub: "Curamos viajes para los que buscan el país antes que la postal.",
+      slogan_l1: "Venezuela:",
+      slogan_l2: "lugares extraordinarios,",
+      slogan_l3: "personas inolvidables.",
+      sub: "Creando conexiones genuinas entre los viajeros y Venezuela.",
       cta: "Conoce nuestros itinerarios"
     },
     about: {
@@ -96,13 +96,13 @@ ORINOCO.copy = {
   },
 
   en: {
-    nav: { destinations:"Destinations", services:"Services", journeys:"Journeys", about:"About", contact:"Contact" },
+    nav: { destinations:"Destinations", services:"Expertise", journeys:"Get inspired", about:"About us", contact:"Contact" },
     hero: {
       eyebrow: "Destination Management Company · Venezuela",
-      slogan_l1: "Venezuela,",
-      slogan_l2: "in its most",
-      slogan_l3: "intimate form.",
-      sub: "We craft travel for those who want the country before the postcard.",
+      slogan_l1: "Venezuela:",
+      slogan_l2: "extraordinary places,",
+      slogan_l3: "unforgettable people.",
+      sub: "Creating genuine connections between travelers and Venezuela.",
       cta: "See our journeys"
     },
     about: {

@@ -14,12 +14,22 @@ export function About() {
       <div className={styles.aboutText}>
         <Reveal className={`eyebrow eyebrow-line ${styles.aboutEyebrow}`}>{t.about.eyebrow}</Reveal>
         <Reveal as="h2" className={`${styles.display} display`} delay={0.1}>
-          <span>{t.about.title_l1}</span><br />
-          <span>{t.about.title_l2}</span><br />
-          <span className={styles.it}>{t.about.title_l3}</span>
+          <span>{t.about.title_l1}</span>{' '}
+          <span className={styles.it}>{t.about.title_l2}</span>
         </Reveal>
-        <Reveal as="p" delay={0.2}>{t.about.body}</Reveal>
-        <Reveal as="a" href="#contact" className="link-arr" delay={0.3}><span>{t.about.cta}</span><span className="arr">→</span></Reveal>
+        <Reveal as="p" className={styles.lead} delay={0.2}>{t.about.body}</Reveal>
+        <Reveal delay={0.3}>
+          <details className={styles.more}>
+            <summary className="link-arr">
+              <span>{t.about.cta}</span>
+              <span className={`arr ${styles.arrow}`} aria-hidden="true">→</span>
+            </summary>
+            <div className={styles.moreBody}>
+              <p>{t.about.body_2}</p>
+              <p>{t.about.body_3}</p>
+            </div>
+          </details>
+        </Reveal>
       </div>
     </section>
   )

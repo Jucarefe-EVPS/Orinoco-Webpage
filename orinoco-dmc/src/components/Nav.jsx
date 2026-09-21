@@ -27,11 +27,10 @@ export function Nav() {
           <Logo className="brand-logo" variant="navbar-cream" />
         </a>
         <div className="nav-links">
-          <a href="#destinations">{t.nav.destinations}</a>
-          <a href="#services">{t.nav.services}</a>
-          <a href="#journeys">{t.nav.journeys}</a>
           <a href="#about">{t.nav.about}</a>
-          <a href="#contact">{t.nav.contact}</a>
+          <a href="#services">{t.nav.services}</a>
+          <a href="#destinations">{t.nav.destinations}</a>
+          <a href="#journeys">{t.nav.journeys}</a>
         </div>
         <div className="nav-right">
           <LangToggle />
@@ -48,11 +47,10 @@ export function Nav() {
 
       <div className={`mobile-menu${menuOpen ? ' mobile-menu--open' : ''}`} aria-hidden={!menuOpen}>
         <nav className="mobile-menu-nav">
-          <a href="#destinations" onClick={close}>{t.nav.destinations}</a>
-          <a href="#services" onClick={close}>{t.nav.services}</a>
-          <a href="#journeys" onClick={close}>{t.nav.journeys}</a>
           <a href="#about" onClick={close}>{t.nav.about}</a>
-          <a href="#contact" onClick={close}>{t.nav.contact}</a>
+          <a href="#services" onClick={close}>{t.nav.services}</a>
+          <a href="#destinations" onClick={close}>{t.nav.destinations}</a>
+          <a href="#journeys" onClick={close}>{t.nav.journeys}</a>
         </nav>
         <div className="mobile-menu-foot">
           <LangToggle />

@@ -13,7 +13,7 @@ export function Hero() {
   useEffect(() => {
     const timer = setInterval(() => {
       setActive((index) => (index + 1) % slides.length)
-    }, 5200)
+    }, 6000)
     return () => clearInterval(timer)
   }, [slides.length])
 
@@ -27,6 +27,7 @@ export function Hero() {
         ))}
       </div>
       <div className={styles.heroContent}>
+        <div className={styles.place}>{slides[active].place} · Venezuela</div>
         <Reveal as="h1" delay={0.1}>
           <span>{t.hero.slogan_l1}</span><br />
           <span className={styles.it}>{t.hero.slogan_l2}</span><br />
@@ -50,9 +51,9 @@ export function Hero() {
                 />
               ))}
             </div>
-            <div className={styles.scrollHint}>scroll</div>
           </div>
         </div>
+        <div className={styles.scrollHint}>scroll</div>
       </div>
     </section>
   )

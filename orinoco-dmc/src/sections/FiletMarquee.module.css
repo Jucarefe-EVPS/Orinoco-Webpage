@@ -1,3 +1,6 @@
-.filet{background:var(--ink);color:var(--cream);padding:18px 0;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink)}
-.filet :global(em){font-family:var(--serif);font-style:italic;font-size:22px}
-.filet :global(small){font-family:var(--mono);font-size:10px;letter-spacing:.2em;align-self:center;margin-left:60px}
+.filet{background:var(--ink);color:var(--cream);padding:26px 0;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink)}
+.filet::before,.filet::after{content:"";position:absolute;top:0;bottom:0;width:90px;z-index:2;pointer-events:none}
+.filet::before{left:0;background:linear-gradient(90deg,var(--ink),transparent)}
+.filet::after{right:0;background:linear-gradient(270deg,var(--ink),transparent)}
+.filet :global(em){font-family:var(--serif);font-style:italic;font-size:clamp(20px,2vw,28px)}
+.filet :global(small){font-family:var(--mono);font-style:normal;font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:rgba(245,241,232,.68)}

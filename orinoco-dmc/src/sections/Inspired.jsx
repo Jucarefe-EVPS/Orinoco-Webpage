@@ -6,7 +6,7 @@ import { media } from '../data/media.js'
 import styles from './Inspired.module.css'
 
 function stylizeName(name) {
-  const words = ['Gabo', 'Wonders', 'Lost', 'Coast', 'Heritage']
+  const words = ['Venezuela', 'Caribbean']
   const match = words.find((word) => name.includes(word))
   if (!match) return name
   const [before, after] = name.split(match)

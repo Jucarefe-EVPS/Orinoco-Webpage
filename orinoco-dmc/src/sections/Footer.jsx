@@ -53,7 +53,7 @@ export function Footer() {
           <ul>
             <li><a href="mailto:hello@orinocodmc.com">hello@orinocodmc.com</a></li>
             <li><a href="tel:+582122436595">+58 212 2436595</a></li>
-            <li>{t.footer.address}</li>
+            <li><address>{t.footer.address}</address></li>
           </ul>
         </div>
         <div>

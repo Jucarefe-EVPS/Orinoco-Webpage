@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 
-export function useCountUp(target, duration = 1800) {
+export function useCountUp(target, duration = 1400) {
   const ref = useRef(null)
   const [value, setValue] = useState('0')
 
@@ -21,7 +21,7 @@ export function useCountUp(target, duration = 1800) {
       }
       requestAnimationFrame(step)
       io.unobserve(node)
-    }, { threshold: 0.4 })
+    }, { threshold: 0.6 })
     io.observe(node)
     return () => io.disconnect()
   }, [target, duration])

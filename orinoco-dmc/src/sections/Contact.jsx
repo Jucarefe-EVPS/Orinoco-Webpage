@@ -98,19 +98,33 @@ export function Contact() {
       </div>
       <form className={styles.form} onSubmit={onSubmit}>
         <input name="website" type="text" className={styles.honey} tabIndex="-1" autoComplete="off" aria-hidden="true" />
-        <input name="name" type="text" placeholder={t.contact.placeholder_name} required />
-        <input name="email" type="email" placeholder={t.contact.email} required />
-        <input name="company" type="text" className={styles.full} placeholder={t.contact.placeholder_company} />
-        <textarea name="message" className={styles.full} rows="3" placeholder={t.contact.placeholder_message} required />
-        {captchaRequired && (
-          <div className={styles.captcha}>
-            <div ref={turnstileRef} />
+        <label className={styles.field}>
+          <span>{t.contact.placeholder_name}</span>
+          <input name="name" type="text" required />
+        </label>
+        <label className={styles.field}>
+          <span>{t.contact.email}</span>
+          <input name="email" type="email" required />
+        </label>
+        <label className={`${styles.field} ${styles.full}`}>
+          <span>{t.contact.placeholder_company}</span>
+          <input name="company" type="text" />
+        </label>
+        <label className={`${styles.field} ${styles.full}`}>
+          <span>{t.contact.placeholder_message}</span>
+          <textarea name="message" rows="3" required />
+        </label>
+        <div className={styles.formFoot}>
+          {captchaRequired && (
+            <div className={styles.captcha}>
+              <div ref={turnstileRef} />
+            </div>
+          )}
+          <div className={styles.actions}>
+            <button className={styles.send} type="submit" disabled={submitDisabled}>
+              <span>{status === 'sent' ? 'OK ' : ''}{status === 'sending' ? 'Enviando...' : t.contact.cta}</span><span className="arr">&rarr;</span>
+            </button>
           </div>
-        )}
-        <div className={styles.actions}>
-          <button className="btn" type="submit" disabled={submitDisabled}>
-            <span>{status === 'sent' ? 'OK ' : ''}{status === 'sending' ? 'Enviando...' : t.contact.cta}</span><span className="arr">&rarr;</span>
-          </button>
         </div>
         {status === 'error' && <p className={styles.error}>No se pudo enviar. Intentalo de nuevo.</p>}
       </form>

@@ -6,6 +6,7 @@ import { FiletMarquee } from './sections/FiletMarquee.jsx'
 import { About } from './sections/About.jsx'
 import Services from './sections/Services.jsx'
 import { Why } from './sections/Why.jsx'
+import { ExpertiseStats } from './sections/ExpertiseStats.jsx'
 import { PhotoRibbon } from './sections/PhotoRibbon.jsx'
 import { Destinations } from './sections/Destinations.jsx'
 import { Inspired } from './sections/Inspired.jsx'
@@ -23,8 +24,11 @@ export default function App() {
         <Hero />
         <FiletMarquee />
         <About />
-        <Services />
-        <Why />
+        <div id="services" className="expertise-group">
+          <Why />
+          <Services />
+          <ExpertiseStats />
+        </div>
         <PhotoRibbon />
         <Destinations />
         <Inspired />

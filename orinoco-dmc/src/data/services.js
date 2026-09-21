@@ -6,10 +6,10 @@ export const services = [
     num: '01',
     image: commons('Kukenan Tepuy at Sunset.jpg'),
     focus: 'center 48%',
-    name: { es: 'FITs', en: 'FITs' },
+    name: { es: 'FITs y Leisure', en: 'FITs and Leisure' },
     desc: {
-      es: 'Viajeros independientes que buscan itinerarios a la medida, guías privados y acceso a experiencias que no están en ningún catálogo. Cada ruta se diseña a mano, persona por persona.',
-      en: "Independent travelers seeking tailor-made itineraries, private guides and access to experiences that aren't in any catalogue. Each route is designed by hand.",
+      es: 'Desde viajes a la medida hasta programas listos para operar y salidas programadas, Orinoco DMC crea experiencias de viaje diseñadas en torno a los intereses, el ritmo, el presupuesto y el estilo de cada viajero. Ya sea que busquen naturaleza, cultura, aventura o encuentros locales significativos, nuestros programas combinan autenticidad, comodidad y una logística impecable, creando conexiones genuinas con los paisajes, las culturas y las personas que hacen única a Venezuela.',
+      en: 'From tailor-made journeys to ready-to-operate programs and scheduled departures, Orinoco DMC creates travel experiences designed around each traveler’s interests, pace, budget, and travel style. Whether seeking nature, culture, adventure, or meaningful local encounters, our programs combine authenticity, comfort, and seamless logistics, creating genuine connections with the landscapes, cultures, and people that make Venezuela unique.',
     },
     meta: [
       { label: { es: 'TAILOR-MADE', en: 'TAILOR-MADE' }, strong: true },
@@ -25,8 +25,8 @@ export const services = [
     focus: 'center 48%',
     name: { es: 'Groups', en: 'Groups' },
     desc: {
-      es: 'Programas para grupos pequeños y medianos: diseño de ruta, logística end-to-end y un coordinador en terreno en cada parada.',
-      en: 'Programs for small and mid-size groups: route design, end-to-end logistics, and a coordinating team on the ground at every stop.',
+      es: 'Desde programas grupales a la medida hasta series garantizadas y salidas con fechas fijas, Orinoco DMC crea experiencias de viaje impecables diseñadas en torno a los objetivos, el perfil y las expectativas de cada grupo. Ya sea para viajes educativos, culturales, religiosos, académicos o de intereses especiales, nuestros programas combinan servicio personalizado, planificación experta y conocimiento local de confianza. Más que simplemente organizar viajes, creamos experiencias que unen a las personas, inspiran conexiones significativas y dejan recuerdos duraderos.',
+      en: 'From tailor-made group programs to guaranteed series and fixed-date departures, Orinoco DMC creates seamless travel experiences designed around each group’s objectives, profile, and expectations. Whether for educational, cultural, religious, academic, or special interest travel, our programs combine personalized service, expert planning, and trusted local expertise. More than simply organizing trips, we create journeys that bring people together, inspire meaningful connections, and leave lasting memories.',
     },
     meta: [
       { label: { es: 'GROUPS', en: 'GROUPS' }, strong: true },
@@ -42,8 +42,8 @@ export const services = [
     focus: 'center 54%',
     name: { es: 'M.I.C.E.', en: 'M.I.C.E.' },
     desc: {
-      es: 'Reuniones, incentivos, conferencias y eventos. Venues singulares, producción local y gestión integral de la experiencia.',
-      en: 'Meetings, incentives, conferences and events. Singular venues, local production, full experience management end-to-end.',
+      es: 'En Orinoco DMC creamos experiencias corporativas que van más allá de la logística y la gestión de eventos. Desde programas de incentivos y retiros ejecutivos hasta conferencias, reuniones y eventos especiales, diseñamos soluciones a la medida que reflejan los objetivos y la cultura de cada cliente. Al combinar conocimiento local, creatividad y una coordinación impecable, transformamos los encuentros de negocios en experiencias significativas que fomentan la participación, fortalecen relaciones e inspiran nuevas perspectivas. Cada detalle se coordina cuidadosamente para que los participantes puedan enfocarse en lo más importante: crear conexiones, celebrar logros y construir recuerdos duraderos.',
+      en: 'At Orinoco DMC, we create corporate experiences that go beyond logistics and event management. From incentive programs and executive retreats to conferences, meetings, and special events, we design tailored solutions that reflect each client’s objectives and company culture. By combining local expertise, creativity, and seamless coordination, we transform business gatherings into meaningful experiences that foster engagement, strengthen relationships, and inspire new perspectives. Every detail is carefully orchestrated so participants can focus on what matters most: building connections, celebrating success, and creating lasting memories.',
     },
     meta: [
       { label: { es: 'CORPORATE', en: 'CORPORATE' }, strong: true },

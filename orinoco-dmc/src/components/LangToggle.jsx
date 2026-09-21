@@ -5,7 +5,7 @@ export function LangToggle() {
   return (
     <div className="lang-toggle" aria-label="Language">
       {['es', 'en'].map((item) => (
-        <button key={item} type="button" className={lang === item ? 'active' : ''} onClick={() => setLang(item)}>
+        <button key={item} type="button" className={lang === item ? 'active' : ''} data-on={lang === item} onClick={() => setLang(item)}>
           <span>{item.toUpperCase()}</span>
         </button>
       ))}

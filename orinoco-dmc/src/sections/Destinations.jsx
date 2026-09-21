@@ -8,7 +8,7 @@ import styles from './Destinations.module.css'
 export function Destinations() {
   const { t } = useLang()
   const trackRef = useRef(null)
-  const [progress, setProgress] = useState(8)
+  const [progress, setProgress] = useState(10)
   const [current, setCurrent] = useState(1)
 
   const step = () => {
@@ -21,15 +21,15 @@ export function Destinations() {
     if (!track) return
     const max = track.scrollWidth - track.clientWidth || 1
     const ratio = track.scrollLeft / max
-    setProgress(8 + ratio * 92)
+    setProgress(10 + ratio * 90)
     setCurrent(Math.min(Math.round(track.scrollLeft / step()) + 1, t.destinations.list.length))
   }
 
   return (
     <section id="destinations" className={styles.dest}>
+      <Reveal className={`eyebrow eyebrow-line ${styles.eyebrow}`}>{t.destinations.eyebrow}</Reveal>
       <div className={styles.container}>
         <div>
-          <Reveal className="eyebrow eyebrow-line">{t.destinations.eyebrow}</Reveal>
           <Reveal as="h2" delay={0.1}>
             <span>{t.destinations.title_l1}</span><br />
             <span className={styles.it}>{t.destinations.title_l2}</span>
